@@ -1,5 +1,7 @@
 # MVA-LiGS
 
+Multiview Attribute-Aware Initialization-based LiDAR Gaussian Splatting.
+
 MVA-LiGS initializes LiDAR-anchored 3D Gaussians with robust multi-view color
 attributes and can regularize Gaussian color during training. This repository
 is dataset-agnostic: it expects a standard COLMAP reconstruction and a LiDAR
