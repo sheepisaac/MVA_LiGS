@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local configuration
+.env
+.venv/
+venv/
+
+# Datasets, point clouds, checkpoints, and generated outputs
+/data/
+/datasets/
+/output/
+/outputs/
+/work/
+*.ply
+*.npz
+*.pth
+*.pt
+*.ckpt
+*.log
+
+# Dataset-specific scripts kept only in the original working directory
+/*.sh
+/old/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
